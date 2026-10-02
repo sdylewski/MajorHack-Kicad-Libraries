@@ -28,6 +28,7 @@ from library" needs this repo checked out and registered.
 | `AG1171_SIL` | Silvertel Ag1171 SLIC module — pin-compatible successor to the Ag1170, same 14-pin SIL footprint |
 | `WM8731` | Wolfson/Cirrus WM8731 stereo audio codec, SSOP-28 |
 | `BM64SPKS1MC2-0003AA` | Microchip BM64 Bluetooth 5.0 stereo audio module, Class 2, DSPK 2.1.5 firmware, 43-pad SMD with RF shield |
+| `BK3266SR` | Beken BK3266SR Bluetooth transmit/receive audio module (F-6988 board), 40-pad SMD |
 | `Choke_Schaffner_RC212-0.5-10M` | Schaffner RC212 current-compensated (common-mode) choke |
 
 ## Footprints (`Custom.pretty/`)
@@ -38,6 +39,7 @@ from library" needs this repo checked out and registered.
 | `AG1171_SIL.kicad_mod` | 14-pin single-in-line module footprint, Silvertel Ag1171 SLIC (shared with the Ag1170, pin-compatible) |
 | `WM8731_SSOP-28.kicad_mod` | SSOP-28 (JEDEC MO-150, 1.75 mm body), Wolfson/Cirrus WM8731 codec |
 | `BM64_MCH.kicad_mod` | 43-pad SMD module footprint, Microchip BM64 Bluetooth module |
+| `BK3266SR.kicad_mod` | 40-pad SMD module footprint, Beken BK3266SR Bluetooth module |
 | `ESP32-C6-WROOM-1.kicad_mod` | Espressif ESP32-C6-WROOM-1 module, castellated-edge SMD |
 | `ESP32-C6-DevKitC-dual.kicad_mod` | ESP32-C6-DevKitC-1 dev board footprint — dual-row through-hole pin headers, all GPIO broken out |
 | `ESP32-C6-DevKitC-cheap.kicad_mod` | Pad-compatible footprint for the cheaper AliExpress ESP32-C6 dev board clone (pin assignment differs from the genuine DevKitC on a couple of pads — see the footprint's own notes before swapping one for the other) |
